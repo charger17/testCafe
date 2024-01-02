@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x = 10;
+
+        console.log("1. Primero");
+        
+        const promesa = new Promise((resolve, reject) => {
+            setTimeout(()=>{
+                x = x*3+2;
+                console.log("2. Proceso terminado");
+                resolve(x);
+            });
+        }, 3000);
+
+        promesa.then(res => {
+            console.log("3. Proceso tres " + res);
+        });
+    </script>
+</body>
+</html>
