@@ -7,6 +7,14 @@
   "bugs": {
     "url": "https://github.com/DevExpress/testcafe/issues"
   },
+  "scripts": {
+    "test_tres" : "testcafe chrome tests/Prueba_3.js",
+    "test_cuatro" : "testcafe chrome tests/Prueba_4.js -e",
+    "test_cuatro_dos" : "testcafe chrome tests/Prueba_4.js",
+    "test_click" : "testcafe chrome tests/Option_click.js",
+    "test_presskey" : "testcafe chrome tests/PressKey.js",
+    "test_typetext" : "testcafe chrome tests/Type_test.js"
+  },
   "devDependencies": {
     "testcafe": "*"
   }
