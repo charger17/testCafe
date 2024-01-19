@@ -1,0 +1,90 @@
+[
+  {
+    "description": "Empezando con TestCafe",
+    "elements": [
+      {
+        "id": "ScenarioParametros Uno",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Parametros Uno",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "C:\\Users\\dhari\\Documents\\cursos\\testCafe\\curso\\tests\\Parametros2.js:1:0"
+            },
+            "name": "Parametros Uno",
+            "result": {
+              "duration": 9131,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Parametros Uno</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "Empezando con TestCafe",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "122.0.0.0"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "11"
+      },
+      "reportTime": "2024-01-18T23:18:06.623Z",
+      "startTime": "2024-01-18T23:17:57.478Z"
+    },
+    "name": "Empezando con TestCafe",
+    "runInfo": {
+      "endTime": "2024-01-18T23:18:06.623Z",
+      "passed": 1,
+      "startTime": "2024-01-18T23:17:57.478Z",
+      "testCount": 1,
+      "userAgents": [
+        "Chrome 122.0.0.0 / Windows 11"
+      ],
+      "warnings": [
+        "The \"src\" option from the configuration file will be ignored."
+      ]
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@parametros"
+      },
+      {
+        "line": 0,
+        "name": "@uno"
+      },
+      {
+        "line": 0,
+        "name": "@empezando"
+      },
+      {
+        "line": 0,
+        "name": "@con"
+      },
+      {
+        "line": 0,
+        "name": "@testcafe"
+      }
+    ],
+    "uri": "C:\\Users\\dhari\\Documents\\cursos\\testCafe\\curso\\tests\\Parametros2.js:1"
+  }
+]
