@@ -1,0 +1,19 @@
+{
+    "src": "curso/tests",
+    "selectorTimeout": 5000,
+    "assertionTimeout": 5000,
+    "pageRequestTimeout" : 40000,
+    "pageLoadTimeout" : 4000,
+    "skipJsErrors": true,
+    "_browsers": ["chrome", "firefox"],
+    "?browsers": ["chrome", "firefox:headless"],
+    "??browsers": ["firefox:headless", "chrome:emulation:device=iphone X"],
+    "browsers": ["firefox"],
+    "userVariables" : {
+        "url": "https://testpages.herokuapp.com/styled/basic-html-form-test.html",
+        "nombre": "Carlos Perez Salazar"
+    }
+
+
+    
+}

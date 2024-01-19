@@ -8,14 +8,21 @@
     "url": "https://github.com/DevExpress/testcafe/issues"
   },
   "scripts": {
-    "test_tres" : "testcafe chrome tests/Prueba_3.js",
-    "test_cuatro" : "testcafe chrome tests/Prueba_4.js -e",
-    "test_cuatro_dos" : "testcafe chrome tests/Prueba_4.js",
-    "test_click" : "testcafe chrome tests/Option_click.js",
-    "test_presskey" : "testcafe chrome tests/PressKey.js",
-    "test_typetext" : "testcafe chrome tests/Type_test.js"
+    "test_tres": "testcafe chrome tests/Prueba_3.js",
+    "test_cuatro": "testcafe chrome tests/Prueba_4.js -e",
+    "test_cuatro_dos": "testcafe chrome tests/Prueba_4.js",
+    "test_click": "testcafe chrome tests/Option_click.js",
+    "test_presskey": "testcafe chrome tests/PressKey.js",
+    "test_typetext": "testcafe chrome tests/Type_test.js",
+    "test_cinco": "testcafe chrome tests/Prueba_5.js"
   },
   "devDependencies": {
     "testcafe": "*"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "dotenv": "^16.3.1",
+    "testcafe-reporter-cucumber-json": "^6.3.0",
+    "testcafe-reporter-html": "^1.4.6"
   }
 }
